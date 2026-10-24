@@ -18,7 +18,7 @@ function initContract() {
   const address = CONFIG.tokenAddress;
 
   if (!address) {
-    display.textContent = "TBA";
+    display.textContent = "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump";
     copyBtn.disabled = true;
     copyBtn.title = "Contract address coming soon";
     return;
